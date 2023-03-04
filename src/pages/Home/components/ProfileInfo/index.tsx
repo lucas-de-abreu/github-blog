@@ -42,8 +42,6 @@ export function ProfileInfo() {
     fetchUserData()
   }, [])
 
-  console.log(!!userData?.avatar_url)
-
   return (
     <ProfileInfoContainer>
       <ProfilePictureContainer hasAvatar={!!userData?.avatar_url}>
